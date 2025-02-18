@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    
     <style>
         form {
             display: flex;
@@ -43,6 +44,14 @@
             </li>
         </ul>
     </nav>
-    <h1>This is home page</h1>
+    <form>
+        <label for="username">Username</label>
+        <input name="username" id="username" type="text" />
+        <label for="password">Password</label>
+        <input name="password" id="password" type="password" />
+        <label for="confirmpassword">Confirm Password</label>
+        <input name="confirmpassword" id="confirmpassword" type="password" />
+        <button type="submit">Login</button>
+    </form>
 </body>
 </html>
