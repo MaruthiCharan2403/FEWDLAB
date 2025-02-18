@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            font-weight: bold;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+        }
+
+        input,
+        textarea,
+        button {
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#workexperience">Work Experience</a></li>
+            <li><a href="#education">Educational Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>My name is Charan. I am a passionate developer with experience in web and mobile development.
+            I enjoy working on innovative projects and solving complex problems.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React, VueJS, NextJs</li>
+            <li><strong>Mobile Development:</strong> React Native, Flutter</li>
+            <li><strong>Backend Development:</strong> Node.js, Express, MongoDB, Firebase, Flask, Django, FastAPI</li>
+            <li><strong>AI & ML:</strong> TensorFlow, PyTorch (basic)</li>
+            <li><strong>Programming Languages:</strong> C, C++, Java, Python, GDScript, MySQL, JavaScript, TypeScript
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Tires on Highways</strong></li>
+            <p>A web application analyzes tire conditions through images captured at toll plazas, achieving 85% accuracy
+                in detecting worn-out or unsafe tires. It alerts vehicle owners via SMS, contributing to improved road
+                safety.</p>
+            <li><strong>Tech for Autism and Dyslexia</strong></li>
+            <p>Leading the development of interactive games for children with Autism and Dyslexia. Built a website for
+                parents, therapists, doctors, and centers to view and manage children's reports, successfully digitizing
+                95% of handwritten reports and game data, enhancing report accessibility and management.</p>
+            <li><strong>Karna AI</strong></li>
+            <p>Developed an AI-powered learning platform for PDF-based content,
+                featuring automated exams and personalized study plans, and integrated
+                a real-time AI interface for doubt clarification.</p>
+        </ul>
+    </section>
+    <section id="workexperience">
+        <h2>Work Experience</h2>
+        <p><strong>Full Stack Developer - (Part time)</strong>
+        <ul>
+            <li>Developed an Job searching platform for individuals to find jobs and apply </li>
+            <li>Developed an course platform for maths</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Educational Profile</h2>
+        <ul>
+            <li>
+                <p><strong>Keshav Memorial Institute of Technology</strong></p>
+                <p>Computer Science and Engineering B.Tech</p>
+                <p>CGPA: 8.4</p>
+            </li>
+            <li>
+                <p><strong>Narayana Junior College</strong></p>
+                <p>Intermediate</p>
+                <p>97.8%</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> yssmc24@gmail.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yadlapati-siva-sai-maruthi-charan-726b03265/"
+                target="_blank">LinkedIn Profile</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/MaruthiCharan2403" target="_blank">GitHub Profile</a>
+        </p>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+
+            <label for="feedback">Feedback</label>
+            <textarea name="feedback" id="feedback" rows="4" placeholder="Enter your feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
