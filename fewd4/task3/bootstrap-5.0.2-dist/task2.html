@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan's Portfolio</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        section {
+            padding: 80px 0;
+        }
+        
+        .skill-badge {
+            margin: 5px;
+            font-size: 1rem;
+        }
+        
+        body {
+            position: relative;
+        }
+
+        .carousel-item {
+            height: 300px;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .progress {
+            height: 25px;
+        }
+
+        .animate-progress .progress-bar {
+            width: 0;
+            transition: width 1.5s;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100" class="bg-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="bg-white text-primary px-2 py-1 rounded me-1">C</span>
+                haran's Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#workexperience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#feedback">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-dark text-white py-5 mt-5" id="introduction">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center py-5">
+                    <span class="badge bg-warning text-dark mb-3 p-2">Full Stack Developer</span>
+                    <h1 class="display-3 fw-bold mb-3">I'm <span class="text-primary">Charan</span></h1>
+                    <p class="lead mb-4 text-light">A passionate developer specializing in innovative web and mobile solutions</p>
+                    <hr class="my-4 opacity-25">
+                    <p class="mb-5">Transforming complex problems into elegant, user-friendly applications</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#contact" class="btn btn-primary btn-lg px-4 gap-3 rounded-pill">Hire Me</a>
+                        <a href="#projects" class="btn btn-outline-light btn-lg px-4 rounded-pill">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="py-5 bg-white">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-primary p-2 mb-2">What I Do</span>
+                    <h2 class="display-5 fw-bold">Technical Skills</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px;" class="bg-primary">
+                    <p class="lead">Expertise across a wide range of technologies and frameworks</p>
+                </div>
+            </div>
+            <div class="card border-0 shadow-sm">
+                <div class="card-body text-center p-5">
+                    <h5 class="card-title mb-4">Additional Technologies</h5>
+                    <span class="badge bg-primary skill-badge p-2 m-1">HTML</span>
+                    <span class="badge bg-secondary skill-badge p-2 m-1">CSS</span>
+                    <span class="badge bg-success skill-badge p-2 m-1">JavaScript</span>
+                    <span class="badge bg-danger skill-badge p-2 m-1">React</span>
+                    <span class="badge bg-warning text-dark skill-badge p-2 m-1">VueJS</span>
+                    <span class="badge bg-info text-dark skill-badge p-2 m-1">NextJs</span>
+                    <span class="badge bg-dark skill-badge p-2 m-1">React Native</span>
+                    <span class="badge bg-primary skill-badge p-2 m-1">Flutter</span>
+                    <span class="badge bg-secondary skill-badge p-2 m-1">Node.js</span>
+                    <span class="badge bg-success skill-badge p-2 m-1">Express</span>
+                    <span class="badge bg-danger skill-badge p-2 m-1">MongoDB</span>
+                    <span class="badge bg-warning text-dark skill-badge p-2 m-1">Firebase</span>
+                    <span class="badge bg-info text-dark skill-badge p-2 m-1">Flask</span>
+                    <span class="badge bg-dark skill-badge p-2 m-1">Django</span>
+                    <span class="badge bg-primary skill-badge p-2 m-1">FastAPI</span>
+                    <span class="badge bg-secondary skill-badge p-2 m-1">TensorFlow</span>
+                    <span class="badge bg-success skill-badge p-2 m-1">PyTorch</span>
+                    <span class="badge bg-danger skill-badge p-2 m-1">C</span>
+                    <span class="badge bg-warning text-dark skill-badge p-2 m-1">C++</span>
+                    <span class="badge bg-info text-dark skill-badge p-2 m-1">Java</span>
+                    <span class="badge bg-dark skill-badge p-2 m-1">Python</span>
+                    <span class="badge bg-primary skill-badge p-2 m-1">GDScript</span>
+                    <span class="badge bg-secondary skill-badge p-2 m-1">MySQL</span>
+                    <span class="badge bg-success skill-badge p-2 m-1">TypeScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="achievements" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-warning text-dark p-2 mb-2">Recognition</span>
+                    <h2 class="display-5 fw-bold">Achievements</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px; background-color: #fff;">
+                    <p class="lead">Milestones and recognitions throughout my journey</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="achievementsCarousel" class="carousel slide shadow-lg" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Achievement 1"></button>
+                            <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="1" aria-label="Achievement 2"></button>
+                            <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="2" aria-label="Achievement 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active bg-primary text-white">
+                                <div class="d-flex align-items-center justify-content-center h-100">
+                                    <div class="text-center p-5">
+                                        <div class="display-1 mb-3">🏆</div>
+                                        <h3>Organizing team of KMIT First Hackathon</h3>
+                                        <p class="lead">Been part of College first 24hr hackathon</p>
+                                        <span class="badge bg-light text-primary">2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item bg-success text-white">
+                                <div class="d-flex align-items-center justify-content-center h-100">
+                                    <div class="text-center p-5">
+                                        <div class="display-1 mb-3">🎓</div>
+                                        <h3>NSO Gold Medal</h3>
+                                        <p class="lead">Won Gold medal in NSO</p>
+                                        <span class="badge bg-light text-success">2018</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item bg-info text-white">
+                                <div class="d-flex align-items-center justify-content-center h-100">
+                                    <div class="text-center p-5">
+                                        <div class="display-1 mb-3">👨‍💻</div>
+                                        <h3>Bronze medal</h3>
+                                        <p class="lead">Won Bronze medal in Ramanujan Maths Olympiad</p>
+                                        <span class="badge bg-light text-info">2017</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#achievementsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#achievementsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-5 justify-content-center text-center">
+                <div class="col-md-3">
+                    <div class="card text-white bg-primary border-0">
+                        <div class="card-body p-4">
+                            <h1 class="display-4 fw-bold">10+</h1>
+                            <p class="mb-0">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-success border-0">
+                        <div class="card-body p-4">
+                            <h1 class="display-4 fw-bold">2</h1>
+                            <p class="mb-0">Awards Won</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card text-white bg-info border-0">
+                        <div class="card-body p-4">
+                            <h1 class="display-4 fw-bold">24/7</h1>
+                            <p class="mb-0">Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-danger p-2 mb-2">Portfolio</span>
+                    <h2 class="display-5 fw-bold">Featured Projects</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px;" class="bg-primary">
+                    <p class="lead">Showcasing my best work and technical capabilities</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-danger text-white py-3">
+                            <h5 class="card-title mb-0 fw-bold">Tires on Highways</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3 text-center">
+                                <span class="badge bg-secondary p-2 m-1">Web App</span>
+                                <span class="badge bg-secondary p-2 m-1">AI</span>
+                                <span class="badge bg-secondary p-2 m-1">Safety</span>
+                            </div>
+                            <p class="card-text">A web application analyzes tire conditions through images captured at toll plazas, achieving 85% accuracy in detecting worn-out or unsafe tires. It alerts vehicle owners via SMS, contributing to improved road safety.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <button class="btn btn-danger rounded-pill">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-primary text-white py-3">
+                            <h5 class="card-title mb-0 fw-bold">Tech for Autism and Dyslexia</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3 text-center">
+                                <span class="badge bg-secondary p-2 m-1">Healthcare</span>
+                                <span class="badge bg-secondary p-2 m-1">Education</span>
+                                <span class="badge bg-secondary p-2 m-1">Web</span>
+                            </div>
+                            <p class="card-text">Leading the development of interactive games for children with Autism and Dyslexia. Built a website for parents, therapists, doctors, and centers to view and manage children's reports, successfully digitizing 95% of handwritten reports and game data.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <button class="btn btn-primary rounded-pill">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-header bg-success text-white py-3">
+                            <h5 class="card-title mb-0 fw-bold">Karna AI</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3 text-center">
+                                <span class="badge bg-secondary p-2 m-1">Education</span>
+                                <span class="badge bg-secondary p-2 m-1">AI</span>
+                                <span class="badge bg-secondary p-2 m-1">Machine Learning</span>
+                            </div>
+                            <p class="card-text">Developed an AI-powered learning platform for PDF-based content, featuring automated exams and personalized study plans, and integrated a real-time AI interface for doubt clarification.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <button class="btn btn-success rounded-pill">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="workexperience" class="py-5 bg-white">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-info text-dark p-2 mb-2">Career</span>
+                    <h2 class="display-5 fw-bold">Work Experience</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px;" class="bg-primary">
+                    <p class="lead">Professional background and industry expertise</p>
+                </div>
+            </div>
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-0">
+                    <table class="table table-hover mb-0">
+                        <thead>
+                            <tr class="table-primary">
+                                <th class="p-3 h5">Role</th>
+                                <th class="p-3 h5">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                                            <span class="h5 mb-0">FSD</span>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-1">Full Stack Developer</h5>
+                                            <p class="text-muted mb-0"><small>2021 - Present (Part-time)</small></p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-3">
+                                    <ul class="mb-0">
+                                        <li>Developed a job-searching platform for individuals to find and apply for jobs.</li>
+                                        <li>Developed a course platform for mathematics.</li>
+                                        <li>Implemented responsive designs and optimized user experiences across platforms.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-secondary p-2 mb-2">Learning</span>
+                    <h2 class="display-5 fw-bold">Educational Profile</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px;" class="bg-primary">
+                    <p class="lead">Academic background and qualifications</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered align-middle text-center shadow-sm">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col">Degree</th>
+                                    <th scope="col">Institution</th>
+                                    <th scope="col">Field of Study</th>
+                                    <th scope="col">Performance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-light">
+                                    <td>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <span class="display-6 me-3">🎓</span>
+                                            <h5 class="mb-0">Bachelor of Technology</h5>
+                                        </div>
+                                    </td>
+                                    <td>Keshav Memorial Institute of Technology</td>
+                                    <td>Computer Science and Engineering</td>
+                                    <td>
+                                        <span class="badge bg-success p-2">CGPA: 8.4</span>
+                                    </td>
+                                </tr>
+                                <tr class="table-light">
+                                    <td>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <span class="display-6 me-3">📚</span>
+                                            <h5 class="mb-0">Intermediate</h5>
+                                        </div>
+                                    </td>
+                                    <td>Narayana Junior College</td>
+                                    <td>MPC</td>
+                                    <td>
+                                        <span class="badge bg-success p-2">97.8%</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-light text-primary p-2 mb-2">Get In Touch</span>
+                    <h2 class="display-5 fw-bold">Contact Me</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px; background-color: #fff;">
+                    <p class="lead">Let's discuss how we can work together on your next project</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4 text-center">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 70px; height: 70px;">
+                                        <span class="h1 text-white">📧</span>
+                                    </div>
+                                    <h5 class="text-dark">Email</h5>
+                                    <p class="text-muted">yssmc24@gmail.com</p>
+                                    <a href="mailto:yssmc24@gmail.com" class="btn btn-outline-primary rounded-pill">Send Email</a>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 70px; height: 70px;">
+                                        <span class="h1 text-white">💼</span>
+                                    </div>
+                                    <h5 class="text-dark">LinkedIn</h5>
+                                    <p class="text-muted">Connect Professionally</p>
+                                    <a href="https://www.linkedin.com/in/yadlapati-siva-sai-maruthi-charan-726b03265/" target="_blank" class="btn btn-outline-primary rounded-pill">Connect</a>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 70px; height: 70px;">
+                                        <span class="h1 text-white">💻</span>
+                                    </div>
+                                    <h5 class="text-dark">GitHub</h5>
+                                    <p class="text-muted">View My Code</p>
+                                    <a href="https://github.com/MaruthiCharan2403" target="_blank" class="btn btn-outline-primary rounded-pill">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-warning text-dark p-2 mb-2">Your Thoughts</span>
+                    <h2 class="display-5 fw-bold">Feedback</h2>
+                    <hr class="mx-auto" style="width: 50px; height: 3px;" class="bg-primary">
+                    <p class="lead">Share your thoughts or inquiries about my work</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" id="message" placeholder="Your Message" style="height: 100px;"></textarea>
+                                            <label for="message">Your Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary rounded-pill">Submit Feedback</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
